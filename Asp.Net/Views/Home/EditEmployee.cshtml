@@ -1,0 +1,55 @@
+﻿
+@model Kursach.Data.Entities.Employee
+@{
+
+}
+<html>
+
+<head>
+
+
+</head>
+<body>
+
+</body>
+<div class="text-center">
+    <form asp-controller="Home" asp-action="EditEmployee" method="post">
+        <label>Введите имя работника</label>
+        <br />
+        <input type="text" class="form-control" placeholder="Имя" style="width: 200px; margin:0 auto" id="serarch-text" name="employee_name" value="@Model.employee_name"/><br />
+        <input type="hidden" name="EmployeeId" value="@Model.EmployeeId"/>
+        <label>Выберите компанию, в которой работает работник</label><br />
+        <select name="DepartmentId">
+        @foreach(var x in ViewBag.departments)
+        {
+            if (x.DepartmentId != Model.DepartmentId)
+            {
+            <option value="@x.DepartmentId" label="@x.Department_name">@x.Department_name</option>
+            }
+            else
+            {
+        <option value="@x.DepartmentId" label="@x.Department_name" selected>@x.Department_name</option>
+            }
+        }
+        </select><br />
+       
+        <label>Выберите позицию, на которой работает работник</label><br />
+       <select name="PositionId">
+        @foreach(var x in ViewBag.positions)
+        {
+            if (x.PositionId != Model.PositionId)
+            {
+           <option value="@x.PositionId" label="@x.Name_of_position">@x.Name_of_position</option>
+            }
+            else
+            {
+       <option value="@x.PositionId" label="@x.Name_of_position" selected>@x.Name_of_position</option>
+            }
+        }
+        </select><br />
+        <br />
+        <input class="btn btn-primary" type="submit" value="Редактировать работника" />
+    </form>
+
+</div>
+</html>

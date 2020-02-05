@@ -1,0 +1,44 @@
+﻿
+@model Kursach.Data.Entities.Department
+@{
+
+}
+<html>
+
+<head>
+
+
+</head>
+<body>
+
+</body>
+<div class="text-center">
+    <form asp-controller="Departments" asp-action="EditDepartment" method="post">
+        <label>Измените имя компании</label>
+        <br />
+        <input type="text" class="form-control" placeholder="Имя" style="width: 200px; margin:0 auto" id="serarch-text" name="Department_name" value="@Model.Department_name" />
+        <input type="hidden" name="DepartmentId" value="@Model.DepartmentId" />
+        <br />
+        <label>Выберите тип документов, которыми занимается компания</label><br />
+        <br />
+        <select name="TypeOfDocumentId">
+            @foreach (var x in ViewBag.types)
+            {
+                if (x.Id != Model.TypeOfDocumentId)
+                {
+                    <option value="@x.Id" label="@x.type_name">@x.type_name</option>
+                }
+                else
+                {
+                    <option value="@x.Id" label="@x.type_name" selected>@x.type_name</option>
+                }
+            }
+        </select><br />
+
+
+        <br />
+        <input class="btn btn-primary" type="submit" value="Редактировать компанию" />
+    </form>
+
+</div>
+</html>

@@ -1,0 +1,45 @@
+﻿@using Kursach.Data.Entities
+@model List<Output_Documents>
+@{
+}
+<html>
+
+<head>
+
+
+</head>
+<body>
+
+</body>
+<div class="text-center">
+    <h2>Отчеты</h2>
+    @foreach (var x in Model)
+    {
+<form asp-controller="interiordocuments" asp-action="Outputreports" method="post" enctype="multipart/form-data" class="border border-primary">
+    <label>Дата регистрации документа</label>
+    <p>@x.Data_register.ToString()</p>
+    <input type="hidden" name="Data_register" value="@x.Data_register" />
+    <label>Дата выпуска документа</label>
+    <p>@x.Date_of_Execution.ToString()</p>
+    <input type="hidden" name="Date_of_Execution" value="@x.Date_of_Execution" />
+    <label>Компания которая занималась выпуском документа</label>
+    <p>@x.department.Department_name</p>
+    <input type="hidden" name="department_name" value="@x.department.Department_name" />
+    <label>Работник компании, который занимался выпуском документа</label>
+    <input type="hidden" name="executor_name" value="@x.Executor.employee_name" />
+    <p>@x.Executor.employee_name</p>
+    <p>Имя документа в файловой системе</p>
+    <p>@x.FileHref</p>
+    <input type="hidden" name="FileHref" value="@x.FileHref"/>
+    <p>Тип документа</p>
+    <label>@x.Type.type_name</label>
+    <br/>
+    <input type="hidden" name="type_name" value="@x.Type.type_name"/>
+    <input class="btn btn-primary" type="submit" value="Скачать отчет" style="margin-bottom:15px" />
+    <br />
+</form>
+    <br />
+    }
+
+</div>
+</html>

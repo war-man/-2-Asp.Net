@@ -1,0 +1,54 @@
+﻿@using Kursach.Data.Entities
+@model  Dictionary<Employee,int>
+@{
+
+   int counter = 1;
+
+
+
+}
+<html>
+
+<head>
+    <table class="table table-striped" style="margin-top:30px">
+        <thead>
+            <tr>
+                <th>Место в топе</th>
+                <th>Имя работника</th>
+                <th>Количество утверждённых документов от других компаний</th>
+                <th>Количество исполненных документов другим компаниям</th>
+                <th>Количество утверждённых документов внутри компании</th>
+                <th>Количество исполненных документов внутри компании</th>
+                <th>Общее количество обработанных документов</th>
+            </tr>
+        </thead>
+        <tbody>
+           @foreach (var pair in Model.OrderByDescending(pair => pair.Value))
+            {
+               int smth = pair.Key.input_Documents.Count + pair.Key.output_Documents.Count + pair.Key.interior_Documents_approver.Count + pair.Key.interior_Documents_executor.Count;
+               
+            <tr>
+                <td>@counter</td>
+                <td>@pair.Key.employee_name</td>
+                <td>@pair.Key.input_Documents.Count</td>
+                <td>@pair.Key.output_Documents.Count</td>
+                <td>@pair.Key.interior_Documents_approver.Count</td>
+                <td>@pair.Key.interior_Documents_executor.Count</td>
+                <td>@smth</td>
+
+            </tr>
+               counter++;
+           }
+
+        </tbody>
+    </table>
+
+</head>
+<body>
+
+</body>
+<div class="text-center">
+    
+
+</div>
+</html>

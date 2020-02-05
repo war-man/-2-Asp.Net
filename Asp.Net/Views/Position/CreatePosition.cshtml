@@ -1,0 +1,26 @@
+﻿
+@model Kursach.Data.Entities.Position
+@{
+
+}
+<html>
+
+<head>
+
+
+</head>
+<body>
+
+</body>
+<div class="text-center">
+    <form asp-controller="Position" asp-action="CreatePosition" method="post">
+        <label>Введите имя позиции</label>
+        <br />
+        <input type="text" class="form-control" placeholder="Имя позиции" style="width: 200px; margin:0 auto" id="serarch-text" name="Name_of_position" /><br />
+        <label>Выберите уровень доступа у позиции</label><br /><br />
+        <input type="text" class="form-control" placeholder="Уровень доступа" style="width: 200px; margin:0 auto" id="serarch-text" name="AccessLevel" /><br />
+        <input class="btn btn-primary" type="submit" value="Создать позицию" />
+    </form>
+
+</div>
+</html>

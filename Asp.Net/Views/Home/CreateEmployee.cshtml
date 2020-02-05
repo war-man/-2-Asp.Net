@@ -1,0 +1,30 @@
+﻿
+@model Kursach.Data.Entities.Employee
+@{
+
+}
+<html>
+
+<head>
+
+
+</head>
+<body>
+
+</body>
+<div class="text-center">
+    <form asp-controller="Home" asp-action="CreateEmployee" method="post">
+        <label>Введите имя работника</label>
+        <br />
+        <input type="text" class="form-control" placeholder="Имя" style="width: 200px; margin:0 auto" id="serarch-text" name="employee_name" /><br />
+        <label>Выберите компанию, в которой работает работник</label><br /><br />
+        <select style="width:150px;margin:0 auto" class="form-control" asp-for="DepartmentId" asp-items="ViewBag.departments"></select></br>
+      
+        <label>Выберите позицию, на которой работает работник</label><br /><br />
+        <select style="width:150px;margin:0 auto" class="form-control" asp-for="PositionId" asp-items="ViewBag.positions"></select><br />
+        <br />
+        <input class="btn btn-primary" type="submit" value="Создать работника" />
+    </form>
+
+</div>
+</html>

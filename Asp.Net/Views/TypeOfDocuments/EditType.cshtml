@@ -1,0 +1,26 @@
+﻿
+@model Kursach.Data.Entities.TypeOfDocument
+@{
+    ViewData["Title"] = "Home Page";
+}
+<html>
+
+<head>
+
+
+</head>
+<body>
+
+</body>
+<div class="text-center">
+    <form asp-controller="TypeOfDocuments" asp-action="EditType" method="post">
+        <label>Введите имя типа документа</label>
+        <br />
+        <input type="text" class="form-control" placeholder="Имя типа документа" style="width: 200px; margin:0 auto" id="serarch-text" name="type_name" value="@Model.type_name" /><br />
+        <input class="btn btn-primary" type="submit" value="Редактировать тип" />
+    </form>
+
+</div>
+</html>
+
+

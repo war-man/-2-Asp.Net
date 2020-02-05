@@ -1,0 +1,84 @@
+﻿
+@model Kursach.Models.InteriorViewModel
+@{   
+}
+<html>
+
+<head>
+
+
+</head>
+<body>
+
+</body>
+<div class="text-center">
+    <form asp-controller="InteriorDocuments" asp-action="EditDocument" method="post" enctype="multipart/form-data">
+        <label>Измените дату регистрации файла(Нынешняя дата регистрации - @Model.Data_register)</label>
+        <input type="datetime-local" name="Data_register" class="form-control" style="width: 200px; margin:0 auto" />
+        <input type="hidden" name="Interior_DocumentId" value="@Model.Interior_DocumentId" />
+        <input type="hidden" name="Access_Level" value="@Model.Access_Level" />
+        <input type="hidden" name="DepartmentId" value="@Model.DepartmentId" />
+        <label>Выберите дедлайн для подготовки файла(Нынешний дедлайн - @Model.DeadLine)</label>
+        <br />
+        <input type="datetime-local" class="form-control" placeholder="Дата дедлайна" style="width: 200px; margin:0 auto" id="serarch-text" name="DeadLine" /><br />
+        <label>Укажите статус документа</label>
+        <br />
+        <input type="text" class="form-control" placeholder="Статус" style="width: 200px; margin:0 auto" id="serarch-text" name="Status" value="@Model.Status" /><br />
+
+        <label>Выберите к какому типу документов принадлежит документ</label><br /><br />
+        <select class="form-control" name="TypeId" style="width: 200px; margin:0 auto">
+            @foreach (var x in ViewBag.type)
+            {
+                if (x.Id != Model.TypeId)
+                {
+                    <option value="@x.Id" label="@x.type_name">@x.type_name</option>
+                }
+                else
+                {
+                    <option value="@x.Id" label="@x.type_name" selected>@x.type_name</option>
+                }
+            }
+        </select>
+        <br />
+        <label>Выберите утвердителя документа</label>
+        <br />
+        <select class="form-control" name="ApproverEmployeeId" style="width: 200px; margin:0 auto">
+            @foreach (var x in ViewBag.employeesexec)
+            {
+                if (x.EmployeeId != Model.ApproverEmployeeId)
+                {
+                    <option value="@x.EmployeeId" label="@x.employee_name">@x.employee_name</option>
+                }
+                else
+                {
+                    <option value="@x.EmployeeId" label="@x.employee_name" selected>@x.employee_name</option>
+                }
+            }
+        </select>
+        <br />
+        <label>Выберите исполнителя для документа</label>
+        <br />
+        <select class="form-control" name="ExecutorEmployeeId" style="width: 200px; margin:0 auto">
+            @foreach (var x in ViewBag.employeesexec)
+            {
+                if (x.EmployeeId != Model.ExecutorEmployeeId)
+                {
+                    <option value="@x.EmployeeId" label="@x.employee_name">@x.employee_name</option>
+                }
+                else
+                {
+                    <option value="@x.EmployeeId" label="@x.employee_name" selected>@x.employee_name</option>
+                }
+            }
+        </select>
+        <br />
+        <label>Залейте файл для отчёта(pdf/docx)</label>
+        <br />
+        <input type="file" name="File" />
+        <br />
+        <br />
+        <input class="btn btn-primary" type="submit" value="Создать документ" />
+    </form>
+
+</div>
+</html>

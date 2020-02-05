@@ -1,0 +1,48 @@
+﻿@using Kursach.Data.Entities
+@model List<Interior_Document>
+@{
+}
+<html>
+
+<head>
+
+
+</head>
+<body>
+
+</body>
+<div class="text-center">
+    <h2>Отчеты</h2>
+    @foreach (var x in Model)
+    {
+<form asp-controller="interiordocuments" asp-action="InteriorReports" method="post" enctype="multipart/form-data" class="border border-primary">
+    <label>Дата регистрации файла</label>
+    <p>@x.Data_register.ToString()</p>
+    <input type="hidden" name="Data_register" value="@x.Data_register" />
+    <label>Дедлайн:</label>
+    <p>@x.DeadLine.ToString()</p>
+    <input type="hidden" name="DeadLine" value="@x.DeadLine" />
+    <label>Компания </label>
+    <p>@x.department.Department_name</p>
+    <input type="hidden" name="department_name" value="@x.department.Department_name" />
+    <label>Работник компании, который занимался проверкой документа</label>
+    <input type="hidden" name="approver_name" value="@x.ApproverEmployee.employee_name" />
+    <p>@x.ApproverEmployee.employee_name</p>
+    <label>Работник компании, который занимался выпуском документа</label>
+    <input type="hidden" name="executor_name" value="@x.ExecutorEmployee.employee_name" />
+    <p>@x.ExecutorEmployee.employee_name</p>
+    <p>Имя файла в файловой системе</p>
+    <p>@x.FileHref</p>
+    <input type="hidden" name="FileHref" value="@x.FileHref" />
+    <p>Тип документа</p>
+    <label>@x.Type.type_name</label>
+    <br />
+    <input type="hidden" name="type_name" value="@x.Type.type_name" />
+    <input class="btn btn-primary" type="submit" value="Скачать отчет" style="margin-bottom:15px" />
+    <br />
+</form>
+        <br />
+    }
+
+</div>
+</html>

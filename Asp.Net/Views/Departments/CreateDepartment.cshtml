@@ -1,0 +1,27 @@
+﻿
+@model Kursach.Data.Entities.Department
+@{
+
+}
+<html>
+
+<head>
+
+
+</head>
+<body>
+
+</body>
+<div class="text-center">
+    <form asp-controller="Departments" asp-action="CreateDepartment" method="post">
+        <label>Введите имя компании</label>
+        <br />
+        <input type="text" class="form-control" placeholder="Имя" style="width: 200px; margin:0 auto" id="serarch-text" name="Department_name" /><br />
+        <label>Выберите тип документа, с которым работает компания</label><br /><br />
+        <select style="width:150px;margin:0 auto" class="form-control" asp-for="TypeOfDocumentId" asp-items="ViewBag.types"></select><br />
+        <br />
+        <input class="btn btn-primary" type="submit" value="Создать компанию" />
+    </form>
+
+</div>
+</html>

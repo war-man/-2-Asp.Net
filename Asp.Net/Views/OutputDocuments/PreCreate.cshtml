@@ -1,0 +1,25 @@
+﻿
+@model Kursach.Data.Entities.Output_Documents
+@{
+}
+<html>
+
+<head>
+
+
+</head>
+<body>
+
+</body>
+<div class="text-center">
+    <h2>Постойте!Выберите сначала уровень доступа документа и компанию к которой он принадлежит</h2>
+    <form asp-controller="OutputDocuments" asp-action="PreCreate" method="post" enctype="multipart/form-data">
+        <label>Выберите уровень доступа документа</label><br />
+        <input type="number" class="form-control" placeholder="Уровень доступа" style="width: 200px; margin:0 auto" id="serarch-text" name="Access_Level" /><br />
+        <label>Выберите от лица какой компании вы хотите отослать документ</label><br />
+        <select style="width:150px;margin:0 auto" class="form-control" asp-for="DepartmentId" asp-items="ViewBag.departments"></select><br /><br />
+        <input class="btn btn-primary" type="submit" value="Сохранить" />
+    </form>
+
+</div>
+</html>

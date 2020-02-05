@@ -1,0 +1,40 @@
+﻿
+@model Kursach.Data.Entities.Interior_Document
+@{
+}
+<html>
+
+<head>
+
+
+</head>
+<body>
+
+</body>
+<div class="text-center">
+    <h2>Постойте!Выберите сначала уровень доступа документа и компанию к которой он принадлежит</h2>
+    <form asp-controller="InteriorDocuments" asp-action="PreEditDocument" method="post" enctype="multipart/form-data">
+        <label>Выберите уровень доступа документа</label><br />
+        <input type="number" class="form-control" placeholder="Уровень доступа" style="width: 200px; margin:0 auto" id="serarch-text" name="Access_Level" value="@Model.Access_Level" /><br />
+       <input type="hidden" name="Interior_DocumentId" value="@Model.Interior_DocumentId" />
+        <label>Выберите к какой компании принадлежит документ</label><br />
+        <select class="form-control" name="DepartmentId" style="width: 200px; margin:0 auto">
+            @foreach (var x in ViewBag.departments)
+            {
+                if (x.DepartmentId != Model.DepartmentId)
+                {
+                    <option value="@x.DepartmentId" label="@x.Department_name">@x.Department_name</option>
+                }
+                else
+                {
+                    <option value="@x.DepartmentId" label="@x.Department_name" selected>@x.Department_name</option>
+                }
+            }
+        </select><br />
+
+       
+        <input class="btn btn-primary" type="submit" value="Сохранить" />
+    </form>
+
+</div>
+</html>

@@ -1,0 +1,24 @@
+﻿
+@model Kursach.Data.Entities.Output_Documents
+@{
+}
+<html>
+
+<head>
+
+
+</head>
+<body>
+
+</body>
+<div class="text-center">
+    <h2>Укажите статус документа</h2>
+    <form asp-controller="outputdocuments" asp-action="EditStatus" method="post" enctype="multipart/form-data">
+        <label>Выберите статус документа</label><br />
+        <input type="text" class="form-control" placeholder="Уровень доступа" style="width: 200px; margin:0 auto" id="serarch-text" name="Status" value="@Model.Status" /><br />
+        <input type="hidden" name="Output_DocumentId" value="@Model.Output_DocumentsId" />
+        <input class="btn btn-primary" type="submit" value="Сохранить" />
+    </form>
+
+</div>
+</html>

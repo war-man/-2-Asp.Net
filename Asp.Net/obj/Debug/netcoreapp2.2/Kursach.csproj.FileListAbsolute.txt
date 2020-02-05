@@ -1,0 +1,181 @@
+C:\Users\Макс\source\repos\Kursach\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\Макс\source\repos\Kursach\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\Макс\source\repos\Kursach\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\Макс\source\repos\Kursach\bin\Debug\netcoreapp2.2\Kursach.deps.json
+C:\Users\Макс\source\repos\Kursach\bin\Debug\netcoreapp2.2\Kursach.runtimeconfig.json
+C:\Users\Макс\source\repos\Kursach\bin\Debug\netcoreapp2.2\Kursach.runtimeconfig.dev.json
+C:\Users\Макс\source\repos\Kursach\bin\Debug\netcoreapp2.2\Kursach.dll
+C:\Users\Макс\source\repos\Kursach\obj\Debug\netcoreapp2.2\Kursach.csprojAssemblyReference.cache
+C:\Users\Макс\source\repos\Kursach\obj\Debug\netcoreapp2.2\Kursach.RazorAssemblyInfo.cache
+C:\Users\Макс\source\repos\Kursach\obj\Debug\netcoreapp2.2\Kursach.RazorAssemblyInfo.cs
+C:\Users\Макс\source\repos\Kursach\obj\Debug\netcoreapp2.2\Kursach.AssemblyInfoInputs.cache
+C:\Users\Макс\source\repos\Kursach\obj\Debug\netcoreapp2.2\Kursach.AssemblyInfo.cs
+C:\Users\Макс\source\repos\Kursach\obj\Debug\netcoreapp2.2\Kursach.TagHelpers.input.cache
+C:\Users\Макс\source\repos\Kursach\obj\Debug\netcoreapp2.2\Kursach.TagHelpers.output.cache
+C:\Users\Макс\source\repos\Kursach\obj\Debug\netcoreapp2.2\Kursach.RazorCoreGenerate.cache
+C:\Users\Макс\source\repos\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Макс\source\repos\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Макс\source\repos\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Макс\source\repos\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\Макс\source\repos\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Макс\source\repos\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Макс\source\repos\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Макс\source\repos\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Макс\source\repos\Kursach\obj\Debug\netcoreapp2.2\Kursach.RazorTargetAssemblyInfo.cache
+C:\Users\Макс\source\repos\Kursach\obj\Debug\netcoreapp2.2\Kursach.RazorTargetAssemblyInfo.cs
+C:\Users\Макс\source\repos\Kursach\bin\Debug\netcoreapp2.2\Kursach.pdb
+C:\Users\Макс\source\repos\Kursach\bin\Debug\netcoreapp2.2\Kursach.Views.dll
+C:\Users\Макс\source\repos\Kursach\bin\Debug\netcoreapp2.2\Kursach.Views.pdb
+C:\Users\Макс\source\repos\Kursach\obj\Debug\netcoreapp2.2\Kursach.Views.pdb
+C:\Users\Макс\source\repos\Kursach\obj\Debug\netcoreapp2.2\Kursach.dll
+C:\Users\Макс\source\repos\Kursach\obj\Debug\netcoreapp2.2\Kursach.pdb
+C:\Users\Макс\source\repos\Kursach\obj\Debug\netcoreapp2.2\Kursach.csproj.CopyComplete
+C:\Users\Макс\source\repos\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\Home\CreateEmployee.cshtml.g.cs
+C:\Users\Макс\source\repos\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\Home\EditEmployee.cshtml.g.cs
+C:\Users\Макс\source\repos\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\Position\Index.cshtml.g.cs
+C:\Users\Макс\source\repos\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\Position\CreatePosition.cshtml.g.cs
+C:\Users\Макс\source\repos\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\Position\EditPosition.cshtml.g.cs
+C:\Users\Макс\source\repos\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\TypeOfDocuments\Index.cshtml.g.cs
+C:\Users\Макс\source\repos\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\TypeOfDocuments\CreateType.cshtml.g.cs
+C:\Users\Макс\source\repos\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\TypeOfDocuments\EditType.cshtml.g.cs
+C:\Users\Макс\source\repos\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\Departments\Index.cshtml.g.cs
+C:\Users\Макс\source\repos\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\Departments\CreateDepartment.cshtml.g.cs
+C:\Users\Макс\source\repos\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\Departments\EditDepartment.cshtml.g.cs
+C:\Users\Макс\source\repos\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\InteriorDocuments\Index.cshtml.g.cs
+C:\Users\Макс\source\repos\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\InteriorDocuments\CreateInteriorDocument.cshtml.g.cs
+C:\Users\Макс\source\repos\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\InteriorDocuments\EditDocument.cshtml.g.cs
+C:\Users\Макс\source\repos\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\InteriorDocuments\PreEditDocument.cshtml.g.cs
+C:\Users\Макс\source\repos\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\InteriorDocuments\PreCreate.cshtml.g.cs
+C:\Users\Макс\source\repos\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\OutputDocuments\Index.cshtml.g.cs
+C:\Users\Макс\source\repos\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\OutputDocuments\PreCreate.cshtml.g.cs
+C:\Users\Макс\source\repos\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\OutputDocuments\CreateOutputDocument.cshtml.g.cs
+C:\Users\Макс\source\repos\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\InputDocuments\Index.cshtml.g.cs
+C:\Users\Макс\source\repos\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\InputDocuments\PreCreate.cshtml.g.cs
+C:\Users\Макс\source\repos\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\InputDocuments\CreateinputDocument.cshtml.g.cs
+C:\Users\Макс\source\repos\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\OutputDocuments\EditStatus.cshtml.g.cs
+C:\Users\Макс\source\repos\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\InputDocuments\EditStatus.cshtml.g.cs
+C:\Users\Макс\source\repos\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\InteriorDocuments\EditStatus.cshtml.g.cs
+C:\Users\Макс\Desktop\Kursach\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\Макс\Desktop\Kursach\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\Макс\Desktop\Kursach\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\Макс\Desktop\Kursach\bin\Debug\netcoreapp2.2\Kursach.deps.json
+C:\Users\Макс\Desktop\Kursach\bin\Debug\netcoreapp2.2\Kursach.runtimeconfig.json
+C:\Users\Макс\Desktop\Kursach\bin\Debug\netcoreapp2.2\Kursach.runtimeconfig.dev.json
+C:\Users\Макс\Desktop\Kursach\bin\Debug\netcoreapp2.2\Kursach.dll
+C:\Users\Макс\Desktop\Kursach\bin\Debug\netcoreapp2.2\Kursach.pdb
+C:\Users\Макс\Desktop\Kursach\bin\Debug\netcoreapp2.2\Kursach.Views.dll
+C:\Users\Макс\Desktop\Kursach\bin\Debug\netcoreapp2.2\Kursach.Views.pdb
+C:\Users\Макс\Desktop\Kursach\obj\Debug\netcoreapp2.2\Kursach.csprojAssemblyReference.cache
+C:\Users\Макс\Desktop\Kursach\obj\Debug\netcoreapp2.2\Kursach.RazorAssemblyInfo.cache
+C:\Users\Макс\Desktop\Kursach\obj\Debug\netcoreapp2.2\Kursach.RazorAssemblyInfo.cs
+C:\Users\Макс\Desktop\Kursach\obj\Debug\netcoreapp2.2\Kursach.AssemblyInfoInputs.cache
+C:\Users\Макс\Desktop\Kursach\obj\Debug\netcoreapp2.2\Kursach.AssemblyInfo.cs
+C:\Users\Макс\Desktop\Kursach\obj\Debug\netcoreapp2.2\Kursach.TagHelpers.input.cache
+C:\Users\Макс\Desktop\Kursach\obj\Debug\netcoreapp2.2\Kursach.TagHelpers.output.cache
+C:\Users\Макс\Desktop\Kursach\obj\Debug\netcoreapp2.2\Kursach.RazorCoreGenerate.cache
+C:\Users\Макс\Desktop\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\Departments\CreateDepartment.cshtml.g.cs
+C:\Users\Макс\Desktop\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\Departments\EditDepartment.cshtml.g.cs
+C:\Users\Макс\Desktop\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\Departments\Index.cshtml.g.cs
+C:\Users\Макс\Desktop\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\Home\CreateEmployee.cshtml.g.cs
+C:\Users\Макс\Desktop\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\Home\EditEmployee.cshtml.g.cs
+C:\Users\Макс\Desktop\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Макс\Desktop\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Макс\Desktop\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\InputDocuments\CreateinputDocument.cshtml.g.cs
+C:\Users\Макс\Desktop\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\InputDocuments\EditStatus.cshtml.g.cs
+C:\Users\Макс\Desktop\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\InputDocuments\Index.cshtml.g.cs
+C:\Users\Макс\Desktop\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\InputDocuments\PreCreate.cshtml.g.cs
+C:\Users\Макс\Desktop\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\InteriorDocuments\CreateInteriorDocument.cshtml.g.cs
+C:\Users\Макс\Desktop\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\InteriorDocuments\EditDocument.cshtml.g.cs
+C:\Users\Макс\Desktop\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\InteriorDocuments\EditStatus.cshtml.g.cs
+C:\Users\Макс\Desktop\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\InteriorDocuments\Index.cshtml.g.cs
+C:\Users\Макс\Desktop\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\InteriorDocuments\InputReports.cshtml.g.cs
+C:\Users\Макс\Desktop\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\InteriorDocuments\InteriorReports.cshtml.g.cs
+C:\Users\Макс\Desktop\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\InteriorDocuments\OutPutReports.cshtml.g.cs
+C:\Users\Макс\Desktop\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\InteriorDocuments\PreCreate.cshtml.g.cs
+C:\Users\Макс\Desktop\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\InteriorDocuments\PreEditDocument.cshtml.g.cs
+C:\Users\Макс\Desktop\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\InteriorDocuments\PreStatistics.cshtml.g.cs
+C:\Users\Макс\Desktop\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\InteriorDocuments\Statistics.cshtml.g.cs
+C:\Users\Макс\Desktop\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\OutputDocuments\CreateOutputDocument.cshtml.g.cs
+C:\Users\Макс\Desktop\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\OutputDocuments\EditStatus.cshtml.g.cs
+C:\Users\Макс\Desktop\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\OutputDocuments\Index.cshtml.g.cs
+C:\Users\Макс\Desktop\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\OutputDocuments\PreCreate.cshtml.g.cs
+C:\Users\Макс\Desktop\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\Position\CreatePosition.cshtml.g.cs
+C:\Users\Макс\Desktop\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\Position\EditPosition.cshtml.g.cs
+C:\Users\Макс\Desktop\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\Position\Index.cshtml.g.cs
+C:\Users\Макс\Desktop\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Макс\Desktop\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\Макс\Desktop\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Макс\Desktop\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Макс\Desktop\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\TypeOfDocuments\CreateType.cshtml.g.cs
+C:\Users\Макс\Desktop\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\TypeOfDocuments\EditType.cshtml.g.cs
+C:\Users\Макс\Desktop\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\TypeOfDocuments\Index.cshtml.g.cs
+C:\Users\Макс\Desktop\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Макс\Desktop\Kursach\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Макс\Desktop\Kursach\obj\Debug\netcoreapp2.2\Kursach.RazorTargetAssemblyInfo.cache
+C:\Users\Макс\Desktop\Kursach\obj\Debug\netcoreapp2.2\Kursach.RazorTargetAssemblyInfo.cs
+C:\Users\Макс\Desktop\Kursach\obj\Debug\netcoreapp2.2\Kursach.Views.pdb
+C:\Users\Макс\Desktop\Kursach\obj\Debug\netcoreapp2.2\Kursach.dll
+C:\Users\Макс\Desktop\Kursach\obj\Debug\netcoreapp2.2\Kursach.pdb
+C:\Users\Макс\Desktop\Kursach\obj\Debug\netcoreapp2.2\Kursach.csproj.CopyComplete
+C:\Users\vital\OneDrive\Рабочий стол\БД\Kursach1\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\vital\OneDrive\Рабочий стол\БД\Kursach1\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\vital\OneDrive\Рабочий стол\БД\Kursach1\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\vital\OneDrive\Рабочий стол\БД\Kursach1\bin\Debug\netcoreapp2.2\Kursach.deps.json
+C:\Users\vital\OneDrive\Рабочий стол\БД\Kursach1\bin\Debug\netcoreapp2.2\Kursach.runtimeconfig.json
+C:\Users\vital\OneDrive\Рабочий стол\БД\Kursach1\bin\Debug\netcoreapp2.2\Kursach.runtimeconfig.dev.json
+C:\Users\vital\OneDrive\Рабочий стол\БД\Kursach1\bin\Debug\netcoreapp2.2\Kursach.dll
+C:\Users\vital\OneDrive\Рабочий стол\БД\Kursach1\bin\Debug\netcoreapp2.2\Kursach.pdb
+C:\Users\vital\OneDrive\Рабочий стол\БД\Kursach1\bin\Debug\netcoreapp2.2\Kursach.Views.dll
+C:\Users\vital\OneDrive\Рабочий стол\БД\Kursach1\bin\Debug\netcoreapp2.2\Kursach.Views.pdb
+C:\Users\vital\OneDrive\Рабочий стол\БД\Kursach1\obj\Debug\netcoreapp2.2\Kursach.csprojAssemblyReference.cache
+C:\Users\vital\OneDrive\Рабочий стол\БД\Kursach1\obj\Debug\netcoreapp2.2\Kursach.RazorAssemblyInfo.cache
+C:\Users\vital\OneDrive\Рабочий стол\БД\Kursach1\obj\Debug\netcoreapp2.2\Kursach.RazorAssemblyInfo.cs
+C:\Users\vital\OneDrive\Рабочий стол\БД\Kursach1\obj\Debug\netcoreapp2.2\Kursach.AssemblyInfoInputs.cache
+C:\Users\vital\OneDrive\Рабочий стол\БД\Kursach1\obj\Debug\netcoreapp2.2\Kursach.AssemblyInfo.cs
+C:\Users\vital\OneDrive\Рабочий стол\БД\Kursach1\obj\Debug\netcoreapp2.2\Kursach.TagHelpers.input.cache
+C:\Users\vital\OneDrive\Рабочий стол\БД\Kursach1\obj\Debug\netcoreapp2.2\Kursach.TagHelpers.output.cache
+C:\Users\vital\OneDrive\Рабочий стол\БД\Kursach1\obj\Debug\netcoreapp2.2\Kursach.RazorCoreGenerate.cache
+C:\Users\vital\OneDrive\Рабочий стол\БД\Kursach1\obj\Debug\netcoreapp2.2\Razor\Views\Departments\CreateDepartment.cshtml.g.cs
+C:\Users\vital\OneDrive\Рабочий стол\БД\Kursach1\obj\Debug\netcoreapp2.2\Razor\Views\Departments\EditDepartment.cshtml.g.cs
+C:\Users\vital\OneDrive\Рабочий стол\БД\Kursach1\obj\Debug\netcoreapp2.2\Razor\Views\Departments\Index.cshtml.g.cs
+C:\Users\vital\OneDrive\Рабочий стол\БД\Kursach1\obj\Debug\netcoreapp2.2\Razor\Views\Home\CreateEmployee.cshtml.g.cs
+C:\Users\vital\OneDrive\Рабочий стол\БД\Kursach1\obj\Debug\netcoreapp2.2\Razor\Views\Home\EditEmployee.cshtml.g.cs
+C:\Users\vital\OneDrive\Рабочий стол\БД\Kursach1\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\vital\OneDrive\Рабочий стол\БД\Kursach1\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\vital\OneDrive\Рабочий стол\БД\Kursach1\obj\Debug\netcoreapp2.2\Razor\Views\InputDocuments\CreateinputDocument.cshtml.g.cs
+C:\Users\vital\OneDrive\Рабочий стол\БД\Kursach1\obj\Debug\netcoreapp2.2\Razor\Views\InputDocuments\EditStatus.cshtml.g.cs
+C:\Users\vital\OneDrive\Рабочий стол\БД\Kursach1\obj\Debug\netcoreapp2.2\Razor\Views\InputDocuments\Index.cshtml.g.cs
+C:\Users\vital\OneDrive\Рабочий стол\БД\Kursach1\obj\Debug\netcoreapp2.2\Razor\Views\InputDocuments\PreCreate.cshtml.g.cs
+C:\Users\vital\OneDrive\Рабочий стол\БД\Kursach1\obj\Debug\netcoreapp2.2\Razor\Views\InteriorDocuments\CreateInteriorDocument.cshtml.g.cs
+C:\Users\vital\OneDrive\Рабочий стол\БД\Kursach1\obj\Debug\netcoreapp2.2\Razor\Views\InteriorDocuments\EditDocument.cshtml.g.cs
+C:\Users\vital\OneDrive\Рабочий стол\БД\Kursach1\obj\Debug\netcoreapp2.2\Razor\Views\InteriorDocuments\EditStatus.cshtml.g.cs
+C:\Users\vital\OneDrive\Рабочий стол\БД\Kursach1\obj\Debug\netcoreapp2.2\Razor\Views\InteriorDocuments\Index.cshtml.g.cs
+C:\Users\vital\OneDrive\Рабочий стол\БД\Kursach1\obj\Debug\netcoreapp2.2\Razor\Views\InteriorDocuments\InputReports.cshtml.g.cs
+C:\Users\vital\OneDrive\Рабочий стол\БД\Kursach1\obj\Debug\netcoreapp2.2\Razor\Views\InteriorDocuments\InteriorReports.cshtml.g.cs
+C:\Users\vital\OneDrive\Рабочий стол\БД\Kursach1\obj\Debug\netcoreapp2.2\Razor\Views\InteriorDocuments\OutPutReports.cshtml.g.cs
+C:\Users\vital\OneDrive\Рабочий стол\БД\Kursach1\obj\Debug\netcoreapp2.2\Razor\Views\InteriorDocuments\PreCreate.cshtml.g.cs
+C:\Users\vital\OneDrive\Рабочий стол\БД\Kursach1\obj\Debug\netcoreapp2.2\Razor\Views\InteriorDocuments\PreEditDocument.cshtml.g.cs
+C:\Users\vital\OneDrive\Рабочий стол\БД\Kursach1\obj\Debug\netcoreapp2.2\Razor\Views\InteriorDocuments\PreStatistics.cshtml.g.cs
+C:\Users\vital\OneDrive\Рабочий стол\БД\Kursach1\obj\Debug\netcoreapp2.2\Razor\Views\InteriorDocuments\Statistics.cshtml.g.cs
+C:\Users\vital\OneDrive\Рабочий стол\БД\Kursach1\obj\Debug\netcoreapp2.2\Razor\Views\OutputDocuments\CreateOutputDocument.cshtml.g.cs
+C:\Users\vital\OneDrive\Рабочий стол\БД\Kursach1\obj\Debug\netcoreapp2.2\Razor\Views\OutputDocuments\EditStatus.cshtml.g.cs
+C:\Users\vital\OneDrive\Рабочий стол\БД\Kursach1\obj\Debug\netcoreapp2.2\Razor\Views\OutputDocuments\Index.cshtml.g.cs
+C:\Users\vital\OneDrive\Рабочий стол\БД\Kursach1\obj\Debug\netcoreapp2.2\Razor\Views\OutputDocuments\PreCreate.cshtml.g.cs
+C:\Users\vital\OneDrive\Рабочий стол\БД\Kursach1\obj\Debug\netcoreapp2.2\Razor\Views\Position\CreatePosition.cshtml.g.cs
+C:\Users\vital\OneDrive\Рабочий стол\БД\Kursach1\obj\Debug\netcoreapp2.2\Razor\Views\Position\EditPosition.cshtml.g.cs
+C:\Users\vital\OneDrive\Рабочий стол\БД\Kursach1\obj\Debug\netcoreapp2.2\Razor\Views\Position\Index.cshtml.g.cs
+C:\Users\vital\OneDrive\Рабочий стол\БД\Kursach1\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\vital\OneDrive\Рабочий стол\БД\Kursach1\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\vital\OneDrive\Рабочий стол\БД\Kursach1\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\vital\OneDrive\Рабочий стол\БД\Kursach1\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\vital\OneDrive\Рабочий стол\БД\Kursach1\obj\Debug\netcoreapp2.2\Razor\Views\TypeOfDocuments\CreateType.cshtml.g.cs
+C:\Users\vital\OneDrive\Рабочий стол\БД\Kursach1\obj\Debug\netcoreapp2.2\Razor\Views\TypeOfDocuments\EditType.cshtml.g.cs
+C:\Users\vital\OneDrive\Рабочий стол\БД\Kursach1\obj\Debug\netcoreapp2.2\Razor\Views\TypeOfDocuments\Index.cshtml.g.cs
+C:\Users\vital\OneDrive\Рабочий стол\БД\Kursach1\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\vital\OneDrive\Рабочий стол\БД\Kursach1\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\vital\OneDrive\Рабочий стол\БД\Kursach1\obj\Debug\netcoreapp2.2\Kursach.RazorTargetAssemblyInfo.cache
+C:\Users\vital\OneDrive\Рабочий стол\БД\Kursach1\obj\Debug\netcoreapp2.2\Kursach.RazorTargetAssemblyInfo.cs
+C:\Users\vital\OneDrive\Рабочий стол\БД\Kursach1\obj\Debug\netcoreapp2.2\Kursach.Views.pdb
+C:\Users\vital\OneDrive\Рабочий стол\БД\Kursach1\obj\Debug\netcoreapp2.2\Kursach.dll
+C:\Users\vital\OneDrive\Рабочий стол\БД\Kursach1\obj\Debug\netcoreapp2.2\Kursach.pdb
+C:\Users\vital\OneDrive\Рабочий стол\БД\Kursach1\obj\Debug\netcoreapp2.2\Kursach.csproj.CopyComplete

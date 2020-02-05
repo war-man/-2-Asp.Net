@@ -1,0 +1,116 @@
+﻿@using Kursach.Data.Entities
+@model Kursach.Models.PagempViewmodel
+@{
+    ViewData["Title"] = "Home Page";
+}
+<html>
+<head>
+
+</head>
+<body>
+    <div class="text-center">
+        <div style="display: flex;">
+            <a asp-controller="InputDocuments" asp-action="PreCreate">
+                <button type="button" class="btn btn-primary">
+                    Create InputDocument
+                </button>
+            </a>
+            <form asp-controller="OutputDocuments" asp-action="Indexing" method="get" style="display:flex">
+                <input type="text" class="form-control" placeholder="search" style="width: 180px; margin-left: 18px;" id="serarch-text" name="sort" />
+                <input type="hidden" name="page" value="@Model.pagination.PageNumber" />
+                <button type="submit" id="serarch" class="btn btn-outline-info" style="height: 38px; margin-left: 12px;">Search</button>
+            </form>
+            <input type="button" class="btn btn-outline-primary" value="Clean search" id="text2" style="margin-left:10px;" onclick="SearchClean()" />
+        </div><br />
+        <table class="table table-striped" style="margin-top:30px">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Имя утвердителя</th>
+                    <th>Компания, которая получает документ</th>
+                    <th>Уровень доступа</th>
+                    <th>Тип документа</th>
+                    <th>Статус документа</th>
+                    <th>Название файла</th>
+                    <th>Время выпуска</th>
+                    <th>Дедлайн</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var i in Model.input_Documents)
+                {
+                <tr>
+                    <td>@i.Input_DocumentsId</td>
+                    <td>@i.Approver.employee_name</td>
+                    <td>@i.department.Department_name</td>
+                    <td>@i.Access_Level</td>
+                    <td>@i.Type.type_name</td>
+                    <td>@i.Status</td>
+                    <td>@i.FileHref</td>
+                    <td>@i.Data_register</td>
+                    <td>@i.DeadLine</td>
+                    <td>
+                        <a asp-controller="interiordocuments" asp-action="Downloading" asp-route-file="@i.FileHref"><i class="fas fa-download"></i></a>
+                    </td>
+                    <td>
+                        <a asp-controller="inputdocuments" asp-action="DeleteDoc" asp-route-id="@i.Input_DocumentsId"><i class="fas fa-trash"></i></a>
+                    </td>
+                    <td>
+                        <a asp-controller="inputdocuments" asp-action="EditStatus" asp-route-id="@i.Input_DocumentsId"><i class="fas fa-pencil-alt"></i></a>
+                    </td>
+                    
+                </tr>
+                }
+            </tbody>
+        </table>
+        @if (Model.pagination.HasPreviousPage)
+        {
+            <a style="text-decoration:none;color:white" asp-controller="outputdocuments" asp-action="Index" asp-route-id="@Model.sortparam" asp-route-page="@(Model.pagination.PageNumber-1)">
+                <button class="btn btn-info">
+                    <i class="fas fa-arrow-left"></i> Назад
+                </button>
+            </a>
+
+        }
+        else
+        {
+            <a style="text-decoration:none;color:white">
+                <button class="btn btn-info">
+                    <i class="fas fa-arrow-left"></i> Назад
+
+                </button>
+            </a>
+        }
+        @if (Model.pagination.HasNextPage)
+        {
+            <a style="text-decoration:none;color:white" asp-controller="outputdocuments" asp-action="Index" asp-route-id="@Model.sortparam" asp-route-page="@(Model.pagination.PageNumber+1)">
+                <button class="btn btn-info">
+                    Вперед <i class="fas fa-arrow-right"></i>
+                </button>
+            </a>
+        }
+        else
+        {
+            <a style="text-decoration:none;color:white">
+                <button class="btn btn-info">
+                    Вперед <i class="fas fa-arrow-right"></i>
+
+                </button>
+            </a>
+        }
+
+
+
+    </div>
+    <script src="../../lib/FontAwesome/all.min.js"></script>
+    <script>
+        function SearchClean() {
+        var elem = document.getElementById("serarch-text");
+
+        elem.value = "";
+        }
+    </script>
+</body>
+</html>

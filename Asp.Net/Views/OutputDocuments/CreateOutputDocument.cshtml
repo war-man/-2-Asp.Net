@@ -1,0 +1,38 @@
+﻿
+@model Kursach.Models.OutputViewModel
+@{
+
+}
+<html>
+
+<head>
+
+
+</head>
+<body>
+
+</body>
+<div class="text-center">
+    <form asp-controller="OutputDocuments" asp-action="CreateInteriorDocument" method="post" enctype="multipart/form-data">
+        <input type="hidden" name="Data_register" value="@DateTime.Now" />
+        <label>Выберите дату выполнения</label>
+        <br />
+        <input type="datetime-local" class="form-control" placeholder="Дата дедлайна" style="width: 200px; margin:0 auto" id="serarch-text" name="Date_of_Execution" /><br />
+        <label>Укажите статус документа</label>
+        <br />
+        <input type="text" class="form-control" placeholder="Статус" style="width: 200px; margin:0 auto" id="serarch-text" name="Status" /><br />
+
+        <input type="hidden" name="Access_Level" value="@ViewBag.access" />
+        <input type="hidden" name="DepartmentId" value="@ViewBag.department" />
+        <label>Выберите к какому типу документов принадлежит документ</label><br />
+        <select style="width:150px;margin:0 auto" class="form-control" asp-for="TypeId" asp-items="ViewBag.types"></select><br />
+        <label>Выберите исполнителя документа</label><br />
+        <select style="width:150px;margin:0 auto" class="form-control" asp-for="ApproverEmployeeId" asp-items="ViewBag.employees"></select><br />
+        <label>Загрузите документ(pdf/docx)</label><br />
+        <input type="file" name="File" />
+        <br /><br />
+        <input class="btn btn-primary" type="submit" value="Создать документ" />
+    </form>
+
+</div>
+</html>

@@ -1,0 +1,102 @@
+﻿@using Kursach.Data.Entities
+@model Kursach.Models.PagempViewmodel
+@{
+    ViewData["Title"] = "Home Page";
+}
+<html>
+<head>
+
+</head>
+<body>
+    <div class="text-center">
+        <div style="display: flex;">
+            <a asp-controller="Position" asp-action="CreatePosition">
+                <button type="button" class="btn btn-primary">
+                    Create position
+                </button>
+            </a>
+            <form asp-controller="Position" asp-action="Index" method="post" style="display:flex">
+                <input type="text" class="form-control" placeholder="search" style="width: 180px; margin-left: 18px;" id="serarch-text" name="sort" />
+                <input type="hidden" name="page" value="@Model.pagination.PageNumber" />
+                <button type="submit" id="serarch" class="btn btn-outline-info" style="height: 38px; margin-left: 12px;">Search</button>
+            </form>
+            <input type="button" class="btn btn-outline-primary" value="Clean search" id="text2" style="margin-left:10px;" onclick="SearchClean()" />
+        </div><br />
+        <table class="table table-striped" style="margin-top:30px">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Name of position</th>
+                    <th>Access Level</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var i in Model.positions)
+                {
+                    <tr>
+                        <td>@i.PositionId</td>
+                        <td>@i.Name_of_position</td>
+                        <td>@i.AccessLevel</td>
+                        <td>
+                            <a asp-controller="position" asp-action="DeletePosition" asp-route-id="@i.PositionId"><i class="fas fa-trash"></i></a>
+                        </td>
+                        <td>
+                            <a asp-controller="position" asp-action="EditPosition" asp-route-id="@i.PositionId"><i class="fas fa-pencil-alt"></i></a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        @if (Model.pagination.HasPreviousPage)
+        {
+            <a style="text-decoration:none;color:white" asp-controller="Position"  asp-action="Index" asp-route-id="@Model.sortparam" asp-route-page="@(Model.pagination.PageNumber-1)">
+                <button class="btn btn-info">
+                    <i class="fas fa-arrow-left"></i> Назад
+
+                </button>
+            </a>
+
+        }
+        else
+        {
+            <a style="text-decoration:none;color:white">
+                <button class="btn btn-info">
+                    <i class="fas fa-arrow-left"></i> Назад
+
+                </button>
+            </a>
+        }
+        @if (Model.pagination.HasNextPage)
+        {
+            <a style="text-decoration:none;color:white"  asp-controller="position" asp-action="Index" asp-route-id="@Model.sortparam" asp-route-page="@(Model.pagination.PageNumber+1)">
+                <button class="btn btn-info">
+                    Вперед <i class="fas fa-arrow-right"></i>
+
+                </button>
+            </a>
+        }
+        else
+        {
+            <a style="text-decoration:none;color:white">
+                <button class="btn btn-info">
+                    Вперед <i class="fas fa-arrow-right"></i>
+
+                </button>
+            </a>
+        }
+
+
+
+    </div>
+    <script src="../../lib/FontAwesome/all.min.js"></script>
+    <script>
+        function SearchClean() {
+        var elem = document.getElementById("serarch-text");
+
+        elem.value = "";
+        }
+    </script>
+</body>
+</html>

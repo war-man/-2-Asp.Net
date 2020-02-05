@@ -1,0 +1,23 @@
+﻿
+@model Kursach.Data.Entities.Interior_Document
+@{
+}
+<html>
+
+<head>
+
+
+</head>
+<body>
+
+</body>
+<div class="text-center">
+    <h2>Выберите компанию для которой хотите увидеть топ сотрудников</h2>
+    <form asp-controller="InteriorDocuments" asp-action="PreStatistics" method="post" enctype="multipart/form-data">
+        <br/>
+        <select style="width:150px;margin:0 auto" class="form-control" asp-for="DepartmentId" asp-items="ViewBag.departments"></select><br /><br />
+        <input class="btn btn-primary" type="submit" value="Сохранить" />
+    </form>
+
+</div>
+</html>
